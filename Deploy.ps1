@@ -18,9 +18,9 @@ function Install-GlobalProtect {
 
             $eFilePath = $PSScriptRoot + "\encrypt\efile.txt"
             $passFilePath = $PSScriptRoot + "\encrypt\pass.txt"
-            $clientCertFilePath = $PSScriptRoot + "\certs\cert_GP-Client-Cert.p12"
-            $rootCertFilePath = $PSScriptRoot + "\certs\RootCA_GlobalProtect.p12"
-            $sslCertFilePath = $PSScriptRoot + "\certs\cert_ssl-decrypt.crt"
+            $clientCertFilePath = $PSScriptRoot + "\certs\ClientCert.p12"
+            $rootCertFilePath = $PSScriptRoot + "\certs\RootCert.p12"
+            $sslCertFilePath = $PSScriptRoot + "\certs\SSLCert.crt"
 
 
             #Importing pfx certifactes with respectiv encrypted passwords
